@@ -17,10 +17,7 @@ body{
     height: 100vh;
     padding: 30px;
     position: absolute;
-    top: 0;
-    
-    
-    
+    top: 0;    
 }
 .things a{
     font-weight: 700;
@@ -54,7 +51,6 @@ body{
    align-items: center;
    justify-content: space-between;
    top: 0;
-   margin-left: ;
 }
 #arr{
     margin-left: 400px;
@@ -67,20 +63,19 @@ body{
 }
 .image img{
     display: inline;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 500px;
+    margin-left: 400px;
     background-color: rgb(167, 167, 167);
-
+    margin-top: 20px;
+    width: 90px;
 }
 .image h2{
     display: inline;
+    position: absolute;
     text-align: center;
     color: rgb(231, 244, 255);
     background-color: rgb(115, 112, 112);
     padding: 30px;
-    border-radius: 10px;
-    top: 0
+    margin-bottom: 50px;
 }
 #music h1{
     margin-left: 400px;
@@ -96,13 +91,16 @@ body{
 #line{
     position: absolute;
     bottom: 0;
-    margin-left: 120px;
-    background-color: black;
-    display: inline-block;
+    margin-left: 300px;
+    display: block;
+    background-color:black;
+    background-size:100%;
 }
 #right{
     position:absolute;
     width: 500px;
     margin-left: 210px;
     margin-top: 50px;
+    width: 300px;
+    background-color: black;
 }
