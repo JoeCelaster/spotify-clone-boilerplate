@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: sans-serif;
+    color: white;
+}
+#logo{
+    width: 300px;
+
+}
+.navbar{
+    background-color: black;
+    border-style:solid ;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+    display: inline-block;
+    height: 100vh;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    
+    
+    
+}
+.things a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    line-height: 2.2;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.things img{
+    margin-left: 30px;
+}
+#secnav{
+    margin-top: 70px;
+}
+#secnav img{
+    width: 28px;
+    height: 29px;
+}
+#fav{
+    margin-left: 25px;
+    margin-top: 70px;
+}
+#inst{
+    margin-top: 100px;
+}
+#diver{
+   position: relative;
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   top: 0;
+   margin-left: ;
+}
+#arr{
+    margin-left: 400px;
+}
+
+.contents{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+.image img{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 500px;
+    background-color: rgb(167, 167, 167);
+
+}
+.image h2{
+    display: inline;
+    text-align: center;
+    color: rgb(231, 244, 255);
+    background-color: rgb(115, 112, 112);
+    padding: 30px;
+    border-radius: 10px;
+    top: 0
+}
+#music h1{
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 3.3em;
+}
+#arist{
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#line{
+    position: absolute;
+    bottom: 0;
+    margin-left: 120px;
+    background-color: black;
+    display: inline-block;
+}
+#right{
+    position:absolute;
+    width: 500px;
+    margin-left: 210px;
+    margin-top: 50px;
+}
